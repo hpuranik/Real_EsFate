@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "tract_id": "42003030100", "name": "Tract 1" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-80.0, 40.4], [-79.98, 40.4], [-79.98, 40.42], [-80.0, 40.42], [-80.0, 40.4]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "tract_id": "42003030200", "name": "Tract 2" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-79.98, 40.4], [-79.96, 40.4], [-79.96, 40.42], [-79.98, 40.42], [-79.98, 40.4]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "tract_id": "42003030300", "name": "Tract 3" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-80.02, 40.38], [-80.0, 40.38], [-80.0, 40.4], [-80.02, 40.4], [-80.02, 40.38]]]
+      }
+    }
+  ]
+}
