@@ -3,26 +3,74 @@
   "features": [
     {
       "type": "Feature",
-      "properties": { "tract_id": "42003030100", "name": "Tract 1" },
+      "properties": { "tract_id": "42003030100", "name": "Downtown" },
       "geometry": {
         "type": "Polygon",
-        "coordinates": [[[-80.0, 40.4], [-79.98, 40.4], [-79.98, 40.42], [-80.0, 40.42], [-80.0, 40.4]]]
+        "coordinates": [[[-80.0093, 40.4406], [-80.0, 40.4406], [-80.0, 40.4480], [-80.0093, 40.4480], [-80.0093, 40.4406]]]
       }
     },
     {
       "type": "Feature",
-      "properties": { "tract_id": "42003030200", "name": "Tract 2" },
+      "properties": { "tract_id": "42003030200", "name": "Strip District" },
       "geometry": {
         "type": "Polygon",
-        "coordinates": [[[-79.98, 40.4], [-79.96, 40.4], [-79.96, 40.42], [-79.98, 40.42], [-79.98, 40.4]]]
+        "coordinates": [[[-80.0, 40.4480], [-79.99, 40.4480], [-79.99, 40.4550], [-80.0, 40.4550], [-80.0, 40.4480]]]
       }
     },
     {
       "type": "Feature",
-      "properties": { "tract_id": "42003030300", "name": "Tract 3" },
+      "properties": { "tract_id": "42003030300", "name": "Lawrenceville" },
       "geometry": {
         "type": "Polygon",
-        "coordinates": [[[-80.02, 40.38], [-80.0, 40.38], [-80.0, 40.4], [-80.02, 40.4], [-80.02, 40.38]]]
+        "coordinates": [[[-79.99, 40.4550], [-79.98, 40.4550], [-79.98, 40.4620], [-79.99, 40.4620], [-79.99, 40.4550]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "tract_id": "42003030400", "name": "North Shore" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-80.0093, 40.4340], [-80.0, 40.4340], [-80.0, 40.4406], [-80.0093, 40.4406], [-80.0093, 40.4340]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "tract_id": "42003030500", "name": "Hill District" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-80.0093, 40.4270], [-80.0, 40.4270], [-80.0, 40.4340], [-80.0093, 40.4340], [-80.0093, 40.4270]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "tract_id": "42003030600", "name": "Hazelwood" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-80.02, 40.4270], [-80.0093, 40.4270], [-80.0093, 40.4340], [-80.02, 40.4340], [-80.02, 40.4270]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "tract_id": "42003030700", "name": "Southside" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-80.02, 40.4340], [-80.0093, 40.4340], [-80.0093, 40.4406], [-80.02, 40.4406], [-80.02, 40.4340]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "tract_id": "42003030800", "name": "Oakland" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-80.02, 40.4406], [-80.0093, 40.4406], [-80.0093, 40.4480], [-80.02, 40.4480], [-80.02, 40.4406]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "tract_id": "42003030900", "name": "Shadyside" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-80.02, 40.4480], [-80.0093, 40.4480], [-80.0093, 40.4550], [-80.02, 40.4550], [-80.02, 40.4480]]]
       }
     }
   ]
