@@ -1,0 +1,221 @@
+.openBtn {
+  width: 100%;
+  padding: 12px;
+  background: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.openBtn:hover {
+  background: #27ae60;
+}
+
+.simulator {
+  background: #f8f9fa;
+  border-radius: 4px;
+  padding: 14px;
+  margin-top: 4px;
+}
+
+.simHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.simHeader h3 {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #333;
+  margin: 0;
+}
+
+.collapseBtn {
+  background: none;
+  border: none;
+  color: #888;
+  font-size: 12px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.disclaimer {
+  font-size: 11px;
+  color: #777;
+  line-height: 1.4;
+  margin: 8px 0 14px 0;
+  font-style: italic;
+}
+
+.modeRow {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.modeBtn {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: white;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  color: #333;
+}
+
+.modeBtn:hover {
+  border-color: #3498db;
+}
+
+.modeActive {
+  background: #34495e;
+  color: white;
+  border-color: #34495e;
+}
+
+.modeNote {
+  font-size: 11px;
+  color: #777;
+  line-height: 1.4;
+  margin: 0 0 12px 0;
+  background: #eef1f4;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.checkboxRow {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: #444;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.inputGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.inputGrid label {
+  display: flex;
+  flex-direction: column;
+  font-size: 11px;
+  color: #555;
+  gap: 4px;
+}
+
+.inputGrid input {
+  padding: 6px 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 13px;
+  width: 100%;
+}
+
+.scenarioRow {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+
+.scenarioBtn {
+  flex: 1;
+  min-width: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 8px 6px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: white;
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: 600;
+  color: #333;
+}
+
+.scenarioBtn:hover {
+  border-color: #3498db;
+}
+
+.scenarioActive {
+  background: #3498db;
+  color: white;
+  border-color: #3498db;
+}
+
+.scenarioPct {
+  font-size: 10px;
+  font-weight: 400;
+  opacity: 0.85;
+}
+
+.customInput {
+  width: 50px;
+  margin-top: 2px;
+  padding: 2px 4px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 11px;
+  text-align: center;
+  color: #333;
+}
+
+.resultsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.resultCard {
+  background: white;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 10px;
+  text-align: center;
+}
+
+.resultValue {
+  font-size: 16px;
+  font-weight: 700;
+  color: #333;
+}
+
+.resultLabel {
+  font-size: 10px;
+  color: #888;
+  margin-top: 2px;
+  line-height: 1.3;
+}
+
+.positive .resultValue {
+  color: #27ae60;
+}
+
+.negative .resultValue {
+  color: #c0392b;
+}
+
+.negativeCashFlowNote {
+  font-size: 11px;
+  color: #c0392b;
+  background: #ffe6e6;
+  padding: 8px;
+  border-radius: 4px;
+  margin: 10px 0 0 0;
+  line-height: 1.4;
+}
